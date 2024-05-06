@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "PoppinsSelfHosted";
+  src: url("./assets/fonts/Poppins-Regular.ttf") format("truetype");
+}
+
+:root {
+  font-family: "PoppinsSelfHosted", sans-serif;
+  color-scheme: dark;
+}
